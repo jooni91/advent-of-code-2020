@@ -4,7 +4,7 @@ I will use mainly C# and my goal is to train myself in using all the new feature
 
 Links to solution for each day:
 
-[Day 1: The Tyranny of the Rocket Equation](https://github.com/jooni91/advent-of-code-2020/tree/master/src/Solutions/Day01)
+[Day 1: Report Repair](https://github.com/jooni91/advent-of-code-2020/tree/master/src/Solutions/Day01)
 
 [Day 2](https://github.com/jooni91/advent-of-code-2020/tree/master/src/Solutions/Day02)
 
