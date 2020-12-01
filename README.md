@@ -3,6 +3,7 @@ This repo contains my solutions for the [Advent of Code 2020](https://adventofco
 I will use mainly C# and my goal is to train myself in using all the new features of the language and strengthen my knowledge and usage of best practices in the language and .NET in general.
 
 ![GitHub Build](https://github.com/jooni91/advent-of-code-2020/workflows/GitHub%20Build/badge.svg)
+[![Build Status](https://dev.azure.com/griesingersoftware/Advent%20of%20Code%202020/_apis/build/status/Build%20Pipeline?branchName=master)](https://dev.azure.com/griesingersoftware/Advent%20of%20Code%202020/_build/latest?definitionId=27&branchName=master)
 
 Links to solution for each day:
 
