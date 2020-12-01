@@ -30,10 +30,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Solutions\Day01\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\src\AdventOfCode2020.csproj" />
   </ItemGroup>
 
