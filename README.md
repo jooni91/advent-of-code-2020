@@ -2,6 +2,8 @@
 This repo contains my solutions for the [Advent of Code 2020](https://adventofcode.com/) challenges. I will try to document my thoughts and steps on how I solved each puzzle as much as I can.
 I will use mainly C# and my goal is to train myself in using all the new features of the language and strengthen my knowledge and usage of best practices in the language and .NET in general.
 
+![GitHub Build](https://github.com/jooni91/advent-of-code-2020/workflows/GitHub%20Build/badge.svg)
+
 Links to solution for each day:
 
 [Day 1: Report Repair](https://github.com/jooni91/advent-of-code-2020/tree/master/src/Solutions/Day01)
