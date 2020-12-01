@@ -90,6 +90,21 @@ namespace AdventOfCode2020.Utilities
         }
 
         /// <summary>
+        /// Converts an <see cref="IEnumerable{string}"/> of strings to an int array.
+        /// </summary>
+        /// <param name="inputs"></param>
+        /// <returns></returns>
+        public static IEnumerable<int> ConvertInputsToIntegers(this IEnumerable<string> inputs)
+        {
+            foreach (var s in inputs)
+            {
+                yield return Convert.ToInt32(s);
+            }
+
+            Console.WriteLine("Converted inputs to integer values.");
+        }
+
+        /// <summary>
         /// Converts an array of strings to an int array.
         /// </summary>
         /// <param name="inputs"></param>
