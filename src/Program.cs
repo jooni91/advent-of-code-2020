@@ -21,7 +21,7 @@ internal class Program
         Console.WriteLine($"Starting part {args[1]} of day {args[0]}.");
 
 
-        if (Assembly.GetCallingAssembly().CreateInstance($"MyAoC2019.Solutions.Day{args[0]}.Day{args[0]}") is not DayBase solutionForDay)
+        if (Assembly.GetCallingAssembly().CreateInstance($"AdventOfCode2020.Solutions.Day{(args[0].Length == 1 ? "0" : "")}{args[0]}.Day{args[0]}") is not DayBase solutionForDay)
         {
             throw new NullReferenceException("Couldn't find solution for specified day.");
         }
