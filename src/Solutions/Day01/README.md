@@ -8,13 +8,13 @@ Eagerly waiting for tomorrows challenge.
 
  Time                  | Rank | Score 
 -----------------------|------|-------
-         -             | - | 0     
+| -             | -    | 0     
 
 **Part 2**
 
  Time                  | Rank | Score 
 -----------------------|------|-------
-         -             | - | 0     
+| -             | -    | 0     
 
 **Because of an outage during the day 1 puzzle unlock, day 1 is worth no points.**
 
