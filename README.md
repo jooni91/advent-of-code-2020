@@ -1,4 +1,4 @@
-# My Advent of Code 2019
+# My Advent of Code 2020
 This repo contains my solutions for the [Advent of Code 2020](https://adventofcode.com/) challenges. I will try to document my thoughts and steps on how I solved each puzzle as much as I can.
 I will use mainly C# and my goal is to train myself in using all the new features of the language and strengthen my knowledge and usage of best practices in the language and .NET in general.
 
