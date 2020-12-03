@@ -11,7 +11,7 @@ Links to solution for each day:
 
 [Day 2: Password Philosophy](https://github.com/jooni91/advent-of-code-2020/tree/master/src/Solutions/Day02)
 
-[Day 3](https://github.com/jooni91/advent-of-code-2020/tree/master/src/Solutions/Day03)
+[Day 3: Toboggan Trajectory](https://github.com/jooni91/advent-of-code-2020/tree/master/src/Solutions/Day03)
 
 [Day 4](https://github.com/jooni91/advent-of-code-2020/tree/master/src/Solutions/Day04)
 
