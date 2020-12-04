@@ -8,6 +8,22 @@ namespace AdventOfCode2020.Utilities
     public static class InputLoader
     {
         /// <summary>
+        /// Get the content of a file as file stream.
+        /// </summary>
+        /// <param name="filePath">The relative path to a file.</param>
+        /// <returns></returns>
+        public static FileStream LoadInputsAsFileStream(string filePath)
+        {
+            Console.WriteLine("Started opening file stream.");
+
+            var result = File.OpenRead(filePath);
+
+            Console.WriteLine($"Opened file stream of file {filePath}.");
+
+            return result;
+        }
+
+        /// <summary>
         /// Get the content of a file as string.
         /// </summary>
         /// <param name="filePath">The relative path to a file.</param>
