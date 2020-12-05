@@ -1,9 +1,5 @@
 ﻿# Day 4: Passport Processing
-When I saw this kind of star maps it reminded me of last years maze challenges, which gave me headache. But After they were solved, I felt good about them again. :smile:
-
-But, this challenge was nothing compared to those. I guess at the first week we will not encounter too hard challenges. I had issues figuring out the basic zero index issues when looking up the current value of the map.
-
-In the second part I had to use a `long` instead of an `int`, because the value got so big.
+I was thinking about 2 options of solving this; Make use of the ASP.NET MVC Data Annotations and validation or just create my own. I've went with the later. But I am still not sure if it was the best choice. Well, at least it worked right? :stuck_out_tongue_winking_eye:
 
 ### Personal Stats for the Day
 **Part 1**
