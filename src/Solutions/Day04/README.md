@@ -1,5 +1,5 @@
 ﻿# Day 4: Passport Processing
-I was thinking about 2 options of solving this; Make use of the ASP.NET MVC Data Annotations and validation or just create my own. I've went with the later. But I am still not sure if it was the best choice. Well, at least it worked right? :stuck_out_tongue_winking_eye:
+I was thinking about 2 options for solving this; Make use of the ASP.NET MVC Data Annotations and validation or just create my own. I've chosen the latter. But I am still not sure if it was the best choice. Well, at least it worked right? :stuck_out_tongue_winking_eye:
 
 ### Personal Stats for the Day
 **Part 1**
