@@ -15,7 +15,7 @@ Links to solution for each day:
 
 [Day 4: Passport Processing](https://github.com/jooni91/advent-of-code-2020/tree/master/src/Solutions/Day04)
 
-[Day 5](https://github.com/jooni91/advent-of-code-2020/tree/master/src/Solutions/Day05)
+[Day 5: Binary Boarding](https://github.com/jooni91/advent-of-code-2020/tree/master/src/Solutions/Day05)
 
 [Day 6](https://github.com/jooni91/advent-of-code-2020/tree/master/src/Solutions/Day06)
 
