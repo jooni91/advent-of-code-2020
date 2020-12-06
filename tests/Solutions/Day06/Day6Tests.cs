@@ -4,30 +4,30 @@ namespace AdventOfCode2020.Tests.Solutions.Day06
 {
     public class Day6Tests
     {
-        //[Fact]
-        //public void PartOne_ShouldReturn_ExpectedValue()
-        //{
-        //    // Arrange
-        //    var daySolution = new AdventOfCode2020.Solutions.Day06.Day6();
+        [Fact]
+        public void PartOne_ShouldReturn_ExpectedValue()
+        {
+            // Arrange
+            var daySolution = new AdventOfCode2020.Solutions.Day06.Day6();
 
-        //    // Act
-        //    var result = daySolution.GetResult(Part.One);
+            // Act
+            var result = daySolution.GetResult(Part.One);
 
-        //    // Assert
-        //    Assert.Equal("826", result);
-        //}
+            // Assert
+            Assert.Equal("6590", result);
+        }
 
-        //[Fact]
-        //public void PartTwo_ShouldReturn_ExpectedValue()
-        //{
-        //    // Arrange
-        //    var daySolution = new AdventOfCode2020.Solutions.Day06.Day6();
+        [Fact]
+        public void PartTwo_ShouldReturn_ExpectedValue()
+        {
+            // Arrange
+            var daySolution = new AdventOfCode2020.Solutions.Day06.Day6();
 
-        //    // Act
-        //    var result = daySolution.GetResult(Part.Two);
+            // Act
+            var result = daySolution.GetResult(Part.Two);
 
-        //    // Assert
-        //    Assert.Equal("678", result);
-        //}
+            // Assert
+            Assert.Equal("3288", result);
+        }
     }
 }

@@ -17,7 +17,7 @@ Links to solution for each day:
 
 [Day 5: Binary Boarding](https://github.com/jooni91/advent-of-code-2020/tree/master/src/Solutions/Day05)
 
-[Day 6](https://github.com/jooni91/advent-of-code-2020/tree/master/src/Solutions/Day06)
+[Day 6: Custom Customs](https://github.com/jooni91/advent-of-code-2020/tree/master/src/Solutions/Day06)
 
 [Day 7](https://github.com/jooni91/advent-of-code-2020/tree/master/src/Solutions/Day07)
 
