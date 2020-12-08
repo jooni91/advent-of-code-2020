@@ -21,7 +21,7 @@ Links to solution for each day:
 
 [Day 7: Handy Haversacks](https://github.com/jooni91/advent-of-code-2020/tree/master/src/Solutions/Day07)
 
-[Day 8](https://github.com/jooni91/advent-of-code-2020/tree/master/src/Solutions/Day08)
+[Day 8: Handheld Halting](https://github.com/jooni91/advent-of-code-2020/tree/master/src/Solutions/Day08)
 
 [Day 9](https://github.com/jooni91/advent-of-code-2020/tree/master/src/Solutions/Day09)
 
