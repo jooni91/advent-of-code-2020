@@ -23,7 +23,7 @@ Links to solution for each day:
 
 [Day 8: Handheld Halting](https://github.com/jooni91/advent-of-code-2020/tree/master/src/Solutions/Day08)
 
-[Day 9](https://github.com/jooni91/advent-of-code-2020/tree/master/src/Solutions/Day09)
+[Day 9: Encoding Error](https://github.com/jooni91/advent-of-code-2020/tree/master/src/Solutions/Day09)
 
 [Day 10](https://github.com/jooni91/advent-of-code-2020/tree/master/src/Solutions/Day10)
 
