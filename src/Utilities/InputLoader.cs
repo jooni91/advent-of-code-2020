@@ -76,7 +76,7 @@ namespace AdventOfCode2020.Utilities
         }
 
         /// <summary>
-        /// Converts a string to an int array.
+        /// Converts each char of a string to an int value.
         /// </summary>
         /// <param name="inputs"></param>
         /// <returns></returns>
@@ -91,7 +91,7 @@ namespace AdventOfCode2020.Utilities
         }
 
         /// <summary>
-        /// Converts an array of strings to an int array.
+        /// Converts an array of strings to int values.
         /// </summary>
         /// <param name="inputs"></param>
         /// <returns></returns>
@@ -106,7 +106,7 @@ namespace AdventOfCode2020.Utilities
         }
 
         /// <summary>
-        /// Converts an <see cref="IEnumerable{string}"/> of strings to an int array.
+        /// Converts an <see cref="IEnumerable{string}"/> of strings to int values.
         /// </summary>
         /// <param name="inputs"></param>
         /// <returns></returns>
@@ -121,7 +121,7 @@ namespace AdventOfCode2020.Utilities
         }
 
         /// <summary>
-        /// Converts an array of strings to an int array.
+        /// Converts an array of strings to long values.
         /// </summary>
         /// <param name="inputs"></param>
         /// <returns></returns>
@@ -132,7 +132,22 @@ namespace AdventOfCode2020.Utilities
                 yield return Convert.ToInt64(s);
             }
 
-            Console.WriteLine("Converted inputs to integer values.");
+            Console.WriteLine("Converted inputs to long values.");
+        }
+
+        /// <summary>
+        /// Converts an <see cref="IEnumerable{string}"/> of strings to long values.
+        /// </summary>
+        /// <param name="inputs"></param>
+        /// <returns></returns>
+        public static IEnumerable<long> ConvertInputsToLongs(this IEnumerable<string> inputs)
+        {
+            foreach (var s in inputs)
+            {
+                yield return Convert.ToInt64(s);
+            }
+
+            Console.WriteLine("Converted inputs to long values.");
         }
 
         /// <summary>
