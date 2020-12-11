@@ -1,20 +1,20 @@
 ﻿# Day 11: Seating System
-I noticed when solving the second part that reading the instructions properly can save you time. :smile:
+My solution consists of a lot of loops, and I am not sure if that is necessarily good. 
 
-In terms of performance I could have done loops that start from both sides of the array, but other than that I am quite happy with my solution.
+Unit test for both parts took about 800 ms to run on my machine. Thats over 10x longer then solutions for previous days. In terms of performance I am sure this can be done better.
 
 ### Personal Stats for the Day
 **Part 1**
 
  Time                  | Rank | Score 
 -----------------------|------|-------
-  05:12:17             | 22485 | 0     
+  09:04:07             | 20503 | 0     
 
 **Part 2**
 
  Time                  | Rank | Score 
 -----------------------|------|-------
-  06:02:06             | 21865 | 0     
+  10:22:19             | 17323 | 0     
 
 ## Part 1
 #### Assignment
