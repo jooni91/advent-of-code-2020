@@ -25,7 +25,7 @@ Links to solution for each day:
 
 [Day 9: Encoding Error](https://github.com/jooni91/advent-of-code-2020/tree/master/src/Solutions/Day09)
 
-[Day 10](https://github.com/jooni91/advent-of-code-2020/tree/master/src/Solutions/Day10)
+[Day 10: Adapter Array](https://github.com/jooni91/advent-of-code-2020/tree/master/src/Solutions/Day10)
 
 [Day 11](https://github.com/jooni91/advent-of-code-2020/tree/master/src/Solutions/Day11)
 
