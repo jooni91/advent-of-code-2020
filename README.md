@@ -27,7 +27,7 @@ Links to solution for each day:
 
 [Day 10: Adapter Array](https://github.com/jooni91/advent-of-code-2020/tree/master/src/Solutions/Day10)
 
-[Day 11](https://github.com/jooni91/advent-of-code-2020/tree/master/src/Solutions/Day11)
+[Day 11: Seating System](https://github.com/jooni91/advent-of-code-2020/tree/master/src/Solutions/Day11)
 
 [Day 12](https://github.com/jooni91/advent-of-code-2020/tree/master/src/Solutions/Day12)
 
