@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
 using AdventOfCode2020.Enums;
 using static AdventOfCode2020.Utilities.InputLoader;
@@ -36,31 +35,35 @@ namespace AdventOfCode2020.Solutions.Day11
             }
         }
 
-        private bool SimulateNextStates(SeatingSystemGridState[,] grid, int staySeatedTolerance, Func<(int, int), SeatingSystemGridState[,], int> countSeats)
+        private bool SimulateNextStates(SeatingSystemGridState[,] grid, int staySeatedTolerance, Func<(int, int), SeatingSystemGridState[,], int> countSeats, int row = 0)
         {
-            var changesToApply = new Dictionary<(int, int), SeatingSystemGridState>(grid.Length);
+            int changesIndex = 0;
 
-            for (int row = 0; row < grid.GetLength(0); row++)
+            Span<(int Row, int Column, SeatingSystemGridState Value)> changesToApply = stackalloc (int, int, SeatingSystemGridState)[grid.Length];
+
+            for (row = 0; row < grid.GetLength(0); row++)
             {
                 for (int column = 0; column < grid.GetLength(1); column++)
                 {
                     if (grid[row, column] == SeatingSystemGridState.Seat && countSeats((row, column), grid) == 0)
                     {
-                        changesToApply.Add((row, column), SeatingSystemGridState.Occupied);
+                        changesToApply[changesIndex] = (row, column, SeatingSystemGridState.Occupied);
+                        changesIndex++;
                     }
                     else if (grid[row, column] == SeatingSystemGridState.Occupied && countSeats((row, column), grid) >= staySeatedTolerance)
                     {
-                        changesToApply.Add((row, column), SeatingSystemGridState.Seat);
+                        changesToApply[changesIndex] = (row, column, SeatingSystemGridState.Seat);
+                        changesIndex++;
                     }
                 }
             }
 
-            foreach(var change in changesToApply)
+            for (int applyIndex = 0; applyIndex < changesIndex; applyIndex++)
             {
-                grid[change.Key.Item1, change.Key.Item2] = change.Value;
+                grid[changesToApply[applyIndex].Row, changesToApply[applyIndex].Column] = changesToApply[applyIndex].Value;
             }
 
-            return changesToApply.Count > 0;
+            return changesIndex > 0;
         }
         private int CountAdjacentOccupidSeats((int Row, int Column) position, SeatingSystemGridState[,] grid)
         {
