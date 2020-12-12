@@ -29,7 +29,7 @@ Links to solution for each day:
 
 [Day 11: Seating System](https://github.com/jooni91/advent-of-code-2020/tree/master/src/Solutions/Day11)
 
-[Day 12](https://github.com/jooni91/advent-of-code-2020/tree/master/src/Solutions/Day12)
+[Day 12: Rain Risk](https://github.com/jooni91/advent-of-code-2020/tree/master/src/Solutions/Day12)
 
 [Day 13](https://github.com/jooni91/advent-of-code-2020/tree/master/src/Solutions/Day13)
 
